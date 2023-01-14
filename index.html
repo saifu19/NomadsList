@@ -1,0 +1,1064 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0">
+        <title>Nomad List</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <!-- Pacifico -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Nunito -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <!-- Noto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome 6 -->
+    <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@44659d9/css/all.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            font-family: 'Nunito', sans-serif;
+        }
+        .pacifico {
+            font-family: 'Pacifico', cursive;
+        }
+    </style>
+    <body>
+        <div class="page-container">
+            <div id="sidebar">
+                <small>WHAT</small>
+                <div>
+                    <ul class="sidebar-ul line line-3">
+                        <li>Cold now</li>
+                        <li>Mild now</li>
+                        <li>Warm now</li>
+                    </ul>
+                    <ul class="sidebar-ul line line-3">
+                        <li>&lt;US$1K/mo</li>
+                        <li>&lt;US$2K/mo</li>
+                        <li>&lt;US$3K/mo</li>
+                    </ul>
+                    <ul class="sidebar-ul row m-0">
+                            <div class="col-6 px-0"><li class="me-2">Safe</li></div>
+                            <div class="col-6 px-0"><li class="me-2">Fast Internet</li></div>
+                            <div class="col-6 px-0"><li class="me-2">Clean air now</li></div>
+                            <div class="col-6 px-0"><li class="me-2">Top reviewed</li></div>
+                            <div class="col-6 px-0"><li class="me-2">Popular now</li></div>
+                            <div class="col-6 px-0"><li class="me-2">Rising</li></div>
+                    </ul>
+                    <ul class="sidebar-ul line line-2">
+                        <li>Top ranked</li>
+                        <li>Hidden gem</li>
+                    </ul>
+                </div>
+                <small>WHERE</small>
+                <ul class="sidebar-ul bar flex-wrap">
+                    <li style="border-top-left-radius: 20px">North America</li>
+                    <li>Latin America</li>
+                    <li>Europe</li>
+                    <li style="border-top-right-radius: 20px">Africa</li>
+                    <li style="border-bottom-left-radius: 20px">Middle East</li>
+                    <li>Asia</li>
+                    <li>Oceania</li>
+                    <li style="border-bottom-right-radius: 20px">Space</li>
+                </ul>
+            </div>
+            <div id="main-window">
+                <section class="bg-valley pt-3" style="position: relative;">
+                    <div class="bg-video">
+                        <video poster="assets/thumbnail.jpg" autoplay muted loop>
+                            <source src="assets/nomad-bg.mp4">
+                        </video>
+                    </div>
+                    <div class="nav-menu" style="position: absolute; top: 10; left: 30; z-index: 2;">
+                        <img id="menuPic" class="" src="logo-square.avif" width="50px" height="50px" style="border-radius: 50%;">
+                            <div class="menu imgMenu container mt-2 pt-3">
+                                <div class="row" style="color: black;">
+                                    <div class="col-6">
+                                        <ul class="menu-list">
+                                            <li>Join Property D</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul class="menu-list">
+                                            <li>Log In</li>
+                                        </ul>
+                                    </div>
+                                    <div class="custom-line mb-1"></div>
+                                    <small>General</small>
+                                    <div class="col-6">
+                                        <ul class="menu-list">
+                                            <li>Frontpage</li>
+                                            <li>Dark mode</li>
+                                            <li>Post a Job - $599</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul class="menu-list">
+                                            <li>Remote Jobs</li>
+                                            <li>Hire remote workers</li>
+                                            <li>Compact mode</li>
+                                        </ul>
+                                    </div>
+                                    <div class="custom-line mb-1"></div>
+                                    <small>Top jobs</small>
+                                    <div class="col-6">
+                                        <ul class="menu-list">
+                                            <li>Async Jobs</li>
+                                            <li>Engineer Jobs</li>
+                                            <li>Senior Jobs</li>
+                                            <li>Finance Jobs</li>
+                                            <li>JavaScript Jobs</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul class="menu-list">
+                                            <li>Distributed Team</li>
+                                            <li>Executive jobs</li>
+                                            <li>Developer jobs</li>
+                                            <li>Sys Admin jobs</li>
+                                            <li>Backend jobs</li>
+                                        </ul>
+                                    </div>
+                                    <div class="custom-line mb-3"></div>
+                                    <small>Companies</small>
+                                    <div class="col-6">
+                                        <ul class="menu-list">
+                                            <li>Post a job</li>
+                                            <li>Ask for discount</li>
+                                            <li>Health insurance for nomads</li>
+                                        </ul>
+                                        
+                                    </div>
+                                    <div class="col-6">
+                                        <ul class="menu-list">
+                                            <li>Buy a job bundle</li>
+                                            <li>Health insurance for teams</li>
+                                        </ul>
+                                        
+                                    </div>
+                                    <div class="custom-line mb-3"></div>
+                                    <small>Feeds</small>
+                                    <div class="col-6">
+                                        <ul class="menu-list">
+                                            <li>Remote jobs API</li>
+                                            <li></li>
+                                            <li>Hacker News mode</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul class="menu-list">
+                                            <li>RSS feed</li>
+                                            <li>JSON feed</li>
+                                            <li>Safe for work mode</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="px-3 py-5">
+                        <div class="row">
+                            <div class="col-md-6 d-flex align-items-center px-5     ">
+                                <div>
+                                    <h1 class="fw-bold" style="font-size: 60px;">
+                                        Go Nomad
+                                    </h1>
+                                    <h3>
+                                        Join a global community of remote workers living and traveling around the world
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="col-md-6 d-none d-md-flex justify-content-center">
+                                <div class="email-card">
+                                    <video style="width: 100%;" poster="assets/thumbnail.jpg" controls>
+                                        <source src="assets/nomad-bg.mp4">
+                                    </video>
+                                    <form id="email-form" class="pt-3">
+                                        <input type="email" class="email-input mb-2" placeholder="Type your email...">
+                                        <button class="w-100 btn-lred mb-2">Join Nomad List</button>
+                                        <p class="text-dark text-center" style="font-size: 10px">Already a member ? <a href="#">Log In</a></p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <svg viewBox="0 0 1440 60" class="wave">
+                        <path fill="#fff" d="M1440,21.2101911 L1440,120 L0,120 L0,21.2101911 C120,35.0700637 240,42 360,42 C480,42 600,35.0700637 720,21.2101911 C808.32779,12.416393 874.573633,6.87702029 918.737528,4.59207306 C972.491685,1.8109458 1026.24584,0.420382166 1080,0.420382166 C1200,0.420382166 1320,7.35031847 1440,21.2101911 Z"></path>
+                    </svg>
+                </section>
+                <div class="main" style="background-color: white; z-index: 20;">
+                    <div class="page custom-container">
+                        <div class="trusted text-center pt-3 d-lg-flex align-items-center justify-content-center d-none">
+                            <p class="d-inline me-4 mb-0" style="font-size: 10px;">as seen in: </p>
+                            <img src="assets/nyt.avif" class="filter-img">
+                            <img src="assets/ft.avif" class="filter-img">
+                            <img src="assets/bbc.avif" class="filter-img">
+                            <img src="assets/cnn.avif" class="filter-img">
+                            <img src="assets/usa-today.avif" class="filter-img">
+                            <img src="assets/cnbc.avif" class="filter-img">
+                            <img src="assets/guardian.avif" class="filter-img">
+                            <img src="assets/politico.avif" class="filter-img">
+                        </div>
+                        <div class="filters">
+                            <div class="filters1 mt-5 d-flex justify-content-between">
+                                <div class="d-flex w-100">
+                                    <!-- <div style="position: relative; z-index: 200000;">
+                                        <img id="menuPic2" class="" src="logo-square.avif" width="50px" height="50px" style="border-radius: 50%;">
+                                            <div class="menu imgMenu2 container mt-2 pt-3" style="top: 60;  height: 50vh !important;">
+                                                <div class="row" style="color: black;">
+                                                    <div class="col-6">
+                                                        <ul class="menu-list">
+                                                            <li>Join Property D</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <ul class="menu-list">
+                                                            <li>Log In</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="custom-line mb-1"></div>
+                                                    <small>General</small>
+                                                    <div class="col-6">
+                                                        <ul class="menu-list">
+                                                            <li>Frontpage</li>
+                                                            <li>Dark mode</li>
+                                                            <li>Post a Job - $599</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <ul class="menu-list">
+                                                            <li>Remote Jobs</li>
+                                                            <li>Hire remote workers</li>
+                                                            <li>Compact mode</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="custom-line mb-1"></div>
+                                                    <small>Top jobs</small>
+                                                    <div class="col-6">
+                                                        <ul class="menu-list">
+                                                            <li>Async Jobs</li>
+                                                            <li>Engineer Jobs</li>
+                                                            <li>Senior Jobs</li>
+                                                            <li>Finance Jobs</li>
+                                                            <li>JavaScript Jobs</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <ul class="menu-list">
+                                                            <li>Distributed Team</li>
+                                                            <li>Executive jobs</li>
+                                                            <li>Developer jobs</li>
+                                                            <li>Sys Admin jobs</li>
+                                                            <li>Backend jobs</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="custom-line mb-3"></div>
+                                                    <small>Companies</small>
+                                                    <div class="col-6">
+                                                        <ul class="menu-list">
+                                                            <li>Post a job</li>
+                                                            <li>Ask for discount</li>
+                                                            <li>Health insurance for nomads</li>
+                                                        </ul>
+                                                        
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <ul class="menu-list">
+                                                            <li>Buy a job bundle</li>
+                                                            <li>Health insurance for teams</li>
+                                                        </ul>
+                                                        
+                                                    </div>
+                                                    <div class="custom-line mb-3"></div>
+                                                    <small>Feeds</small>
+                                                    <div class="col-6">
+                                                        <ul class="menu-list">
+                                                            <li>Remote jobs API</li>
+                                                            <li></li>
+                                                            <li>Hacker News mode</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <ul class="menu-list">
+                                                            <li>RSS feed</li>
+                                                            <li>JSON feed</li>
+                                                            <li>Safe for work mode</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div> -->
+                                    <button class="btn-ored px-3 rounded-3 side-toggler">Filters</button>
+                                    <input class="menu-inputs ms-3" placeholder="Search or filter">
+                                        <div class="dropdown-custom row">
+                                            <ul class="menu-list col-4">
+                                                <li><a href="#" class="dropdown-item">Engineer</a></li>
+                                                <li><a href="#" class="dropdown-item">Executive</a></li>
+                                                <li><a href="#" class="dropdown-item">Senior</a></li>
+                                                <li><a href="#" class="dropdown-item">Developer</a></li>
+                                                <li><a href="#" class="dropdown-item">Finance</a></li>
+                                                <li><a href="#" class="dropdown-item">Sys Admin</a></li>
+                                                <li><a href="#" class="dropdown-item">JavaScript</a></li>
+                                                <li><a href="#" class="dropdown-item">Backend</a></li>
+                                                <li><a href="#" class="dropdown-item">Golang</a></li>
+                                                <li><a href="#" class="dropdown-item">Cloud</a></li>
+                                                <li><a href="#" class="dropdown-item">Medical</a></li>
+                                                <li><a href="#" class="dropdown-item">Front End</a></li>
+                                                <li><a href="#" class="dropdown-item">Full Stack</a></li>
+                                                <li><a href="#" class="dropdown-item">Ops</a></li>
+                                                <li><a href="#" class="dropdown-item">Design</a></li>
+                                                <li><a href="#" class="dropdown-item">React</a></li>
+                                            </ul>
+                                            <ul class="menu-list col-4">
+                                                <li><a href="#" class="dropdown-item">Engineer</a></li>
+                                                <li><a href="#" class="dropdown-item">Executive</a></li>
+                                                <li><a href="#" class="dropdown-item">Senior</a></li>
+                                                <li><a href="#" class="dropdown-item">Developer</a></li>
+                                                <li><a href="#" class="dropdown-item">Finance</a></li>
+                                                <li><a href="#" class="dropdown-item">Sys Admin</a></li>
+                                                <li><a href="#" class="dropdown-item">JavaScript</a></li>
+                                                <li><a href="#" class="dropdown-item">Backend</a></li>
+                                                <li><a href="#" class="dropdown-item">Golang</a></li>
+                                                <li><a href="#" class="dropdown-item">Cloud</a></li>
+                                                <li><a href="#" class="dropdown-item">Medical</a></li>
+                                                <li><a href="#" class="dropdown-item">Front End</a></li>
+                                                <li><a href="#" class="dropdown-item">Full Stack</a></li>
+                                                <li><a href="#" class="dropdown-item">Ops</a></li>
+                                                <li><a href="#" class="dropdown-item">Design</a></li>
+                                                <li><a href="#" class="dropdown-item">React</a></li>
+                                            </ul>
+                                            <ul class="menu-list col-4">
+                                                <li><a href="#" class="dropdown-item">Engineer</a></li>
+                                                <li><a href="#" class="dropdown-item">Executive</a></li>
+                                                <li><a href="#" class="dropdown-item">Senior</a></li>
+                                                <li><a href="#" class="dropdown-item">Developer</a></li>
+                                                <li><a href="#" class="dropdown-item">Finance</a></li>
+                                                <li><a href="#" class="dropdown-item">Sys Admin</a></li>
+                                                <li><a href="#" class="dropdown-item">JavaScript</a></li>
+                                                <li><a href="#" class="dropdown-item">Backend</a></li>
+                                                <li><a href="#" class="dropdown-item">Golang</a></li>
+                                                <li><a href="#" class="dropdown-item">Cloud</a></li>
+                                                <li><a href="#" class="dropdown-item">Medical</a></li>
+                                                <li><a href="#" class="dropdown-item">Front End</a></li>
+                                                <li><a href="#" class="dropdown-item">Full Stack</a></li>
+                                                <li><a href="#" class="dropdown-item">Ops</a></li>
+                                                <li><a href="#" class="dropdown-item">Design</a></li>
+                                                <li><a href="#" class="dropdown-item">React</a></li>
+                                            </ul>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="filters2 d-flex mt-2" style="flex-wrap: wrap;">
+                                <div class="filterButtons">Asia</div>
+                                <div class="filterButtons">Europe</div>
+                                <div class="filterButtons">Latin America</div>
+                                <div class="filterButtons">North America</div>
+                                <div class="filterButtons">Oceania</div>
+                                <div class="filterButtons">Africa</div>
+                                <div class="filterButtons">Middle East</div>
+                            </div>
+                        </div>
+                        <div class="cards-section mt-3" style="position: relative; z-index: -1;">
+                            <div class="row">
+                                <div class=" col-lg-3 col-md-4 col-sm-6 card-container">
+                                    <div class="c-card" style="background-image: url('assets/bangkok.avif')">
+                                        <div class="card-bg">
+                                            <div class="d-flex justify-content-between card-sec-1">
+                                                <p class="mb-0 text-decoration-underline">1</p>
+                                                <p class="mb-0 text-center">29 <br> Mbps</p>
+                                            </div>
+                                            <h3 class="fw-bold">Bangkok</h3>
+                                            <div class="d-flex justify-content-between card-sec-2">
+                                                <div class="d-flex justify-content-between w-100">
+                                                    <div class="d-flex">
+                                                        <p class="mb-0 me-2">
+                                                            <small class="vsmall">Feels 27</small><br>
+                                                            <small class="small">30</small>
+                                                        </p>
+                                                        <p class="mb-0">
+                                                            <small class="vsmall">AQI</small><br>
+                                                            <small class="small">104</small>
+                                                        </p>
+                                                    </div>
+                                                    <h5 class="fw-bold">$2,185/mo</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="overlay justify-content-center align-items-center">
+                                            <div class="p-3 card-sec-1" style="font-size: 20px;">
+                                                <svg aria-hidden="true" width="20" focusable="false" data-prefix="far" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    <path class="heart-path" fill="white" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path>
+                                                 </svg>                                         
+        
+                                                <i class="fa fa-times float-end"></i>
+                                            </div>
+                                            <div class="my-3 w-100">
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Overall</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Cost</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Internet</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Fun</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Safety</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-sec-2">
+                                                <p class="text-center fw-bold">Bangkok is a really nice city. ..</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" col-lg-3 col-md-4 col-sm-6 card-container">
+                                    <div class="c-card" style="background-image: url('assets/bangkok.avif')">
+                                        <div class="card-bg">
+                                            <div class="d-flex justify-content-between card-sec-1">
+                                                <p class="mb-0 text-decoration-underline">1</p>
+                                                <p class="mb-0 text-center">29 <br> Mbps</p>
+                                            </div>
+                                            <h3 class="fw-bold">Bangkok</h3>
+                                            <div class="d-flex justify-content-between card-sec-2">
+                                                <div class="d-flex justify-content-between w-100">
+                                                    <div class="d-flex">
+                                                        <p class="mb-0 me-2">
+                                                            <small class="vsmall">Feels 27</small><br>
+                                                            <small class="small">30</small>
+                                                        </p>
+                                                        <p class="mb-0">
+                                                            <small class="vsmall">AQI</small><br>
+                                                            <small class="small">104</small>
+                                                        </p>
+                                                    </div>
+                                                    <h5 class="fw-bold">$2,185/mo</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="overlay justify-content-center align-items-center">
+                                            <div class="p-3 card-sec-1" style="font-size: 20px;">
+                                                <svg aria-hidden="true" width="20" focusable="false" data-prefix="far" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    <path class="heart-path" fill="white" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path>
+                                                 </svg>                                         
+        
+                                                <i class="fa fa-times float-end"></i>
+                                            </div>
+                                            <div class="my-3 w-100">
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Overall</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Cost</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Internet</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Fun</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Safety</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-sec-2">
+                                                <p class="text-center fw-bold">Bangkok is a really nice city. ..</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" col-lg-3 col-md-4 col-sm-6 card-container">
+                                    <div class="c-card" style="background-image: url('assets/bangkok.avif')">
+                                        <div class="card-bg">
+                                            <div class="d-flex justify-content-between card-sec-1">
+                                                <p class="mb-0 text-decoration-underline">1</p>
+                                                <p class="mb-0 text-center">29 <br> Mbps</p>
+                                            </div>
+                                            <h3 class="fw-bold">Bangkok</h3>
+                                            <div class="d-flex justify-content-between card-sec-2">
+                                                <div class="d-flex justify-content-between w-100">
+                                                    <div class="d-flex">
+                                                        <p class="mb-0 me-2">
+                                                            <small class="vsmall">Feels 27</small><br>
+                                                            <small class="small">30</small>
+                                                        </p>
+                                                        <p class="mb-0">
+                                                            <small class="vsmall">AQI</small><br>
+                                                            <small class="small">104</small>
+                                                        </p>
+                                                    </div>
+                                                    <h5 class="fw-bold">$2,185/mo</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="overlay justify-content-center align-items-center">
+                                            <div class="p-3 card-sec-1" style="font-size: 20px;">
+                                                <svg aria-hidden="true" width="20" focusable="false" data-prefix="far" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    <path class="heart-path" fill="white" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path>
+                                                 </svg>                                         
+        
+                                                <i class="fa fa-times float-end"></i>
+                                            </div>
+                                            <div class="my-3 w-100">
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Overall</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Cost</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Internet</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Fun</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Safety</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-sec-2">
+                                                <p class="text-center fw-bold">Bangkok is a really nice city. ..</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" col-lg-3 col-md-4 col-sm-6 card-container">
+                                    <div class="c-card" style="background-image: url('assets/bangkok.avif')">
+                                        <div class="card-bg">
+                                            <div class="d-flex justify-content-between card-sec-1">
+                                                <p class="mb-0 text-decoration-underline">1</p>
+                                                <p class="mb-0 text-center">29 <br> Mbps</p>
+                                            </div>
+                                            <h3 class="fw-bold">Bangkok</h3>
+                                            <div class="d-flex justify-content-between card-sec-2">
+                                                <div class="d-flex justify-content-between w-100">
+                                                    <div class="d-flex">
+                                                        <p class="mb-0 me-2">
+                                                            <small class="vsmall">Feels 27</small><br>
+                                                            <small class="small">30</small>
+                                                        </p>
+                                                        <p class="mb-0">
+                                                            <small class="vsmall">AQI</small><br>
+                                                            <small class="small">104</small>
+                                                        </p>
+                                                    </div>
+                                                    <h5 class="fw-bold">$2,185/mo</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="overlay justify-content-center align-items-center">
+                                            <div class="p-3 card-sec-1" style="font-size: 20px;">
+                                                <svg aria-hidden="true" width="20" focusable="false" data-prefix="far" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    <path class="heart-path" fill="white" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path>
+                                                 </svg>                                         
+        
+                                                <i class="fa fa-times float-end"></i>
+                                            </div>
+                                            <div class="my-3 w-100">
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Overall</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Cost</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Internet</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Fun</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Safety</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-sec-2">
+                                                <p class="text-center fw-bold">Bangkok is a really nice city. ..</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" col-lg-3 col-md-4 col-sm-6 card-container">
+                                    <div class="c-card" style="background-image: url('assets/bangkok.avif')">
+                                        <div class="card-bg">
+                                            <div class="d-flex justify-content-between card-sec-1">
+                                                <p class="mb-0 text-decoration-underline">1</p>
+                                                <p class="mb-0 text-center">29 <br> Mbps</p>
+                                            </div>
+                                            <h3 class="fw-bold">Bangkok</h3>
+                                            <div class="d-flex justify-content-between card-sec-2">
+                                                <div class="d-flex justify-content-between w-100">
+                                                    <div class="d-flex">
+                                                        <p class="mb-0 me-2">
+                                                            <small class="vsmall">Feels 27</small><br>
+                                                            <small class="small">30</small>
+                                                        </p>
+                                                        <p class="mb-0">
+                                                            <small class="vsmall">AQI</small><br>
+                                                            <small class="small">104</small>
+                                                        </p>
+                                                    </div>
+                                                    <h5 class="fw-bold">$2,185/mo</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="overlay justify-content-center align-items-center">
+                                            <div class="p-3 card-sec-1" style="font-size: 20px;">
+                                                <svg aria-hidden="true" width="20" focusable="false" data-prefix="far" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    <path class="heart-path" fill="white" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path>
+                                                 </svg>                                         
+        
+                                                <i class="fa fa-times float-end"></i>
+                                            </div>
+                                            <div class="my-3 w-100">
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Overall</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Cost</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Internet</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Fun</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Safety</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-sec-2">
+                                                <p class="text-center fw-bold">Bangkok is a really nice city. ..</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" col-lg-3 col-md-4 col-sm-6 card-container">
+                                    <div class="c-card" style="background-image: url('assets/bangkok.avif')">
+                                        <div class="card-bg">
+                                            <div class="d-flex justify-content-between card-sec-1">
+                                                <p class="mb-0 text-decoration-underline">1</p>
+                                                <p class="mb-0 text-center">29 <br> Mbps</p>
+                                            </div>
+                                            <h3 class="fw-bold">Bangkok</h3>
+                                            <div class="d-flex justify-content-between card-sec-2">
+                                                <div class="d-flex justify-content-between w-100">
+                                                    <div class="d-flex">
+                                                        <p class="mb-0 me-2">
+                                                            <small class="vsmall">Feels 27</small><br>
+                                                            <small class="small">30</small>
+                                                        </p>
+                                                        <p class="mb-0">
+                                                            <small class="vsmall">AQI</small><br>
+                                                            <small class="small">104</small>
+                                                        </p>
+                                                    </div>
+                                                    <h5 class="fw-bold">$2,185/mo</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="overlay justify-content-center align-items-center">
+                                            <div class="p-3 card-sec-1" style="font-size: 20px;">
+                                                <svg aria-hidden="true" width="20" focusable="false" data-prefix="far" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    <path class="heart-path" fill="white" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path>
+                                                 </svg>                                         
+        
+                                                <i class="fa fa-times float-end"></i>
+                                            </div>
+                                            <div class="my-3 w-100">
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Overall</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Cost</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Internet</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Fun</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Safety</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-sec-2">
+                                                <p class="text-center fw-bold">Bangkok is a really nice city. ..</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" col-lg-3 col-md-4 col-sm-6 card-container">
+                                    <div class="c-card" style="background-image: url('assets/bangkok.avif')">
+                                        <div class="card-bg">
+                                            <div class="d-flex justify-content-between card-sec-1">
+                                                <p class="mb-0 text-decoration-underline">1</p>
+                                                <p class="mb-0 text-center">29 <br> Mbps</p>
+                                            </div>
+                                            <h3 class="fw-bold">Bangkok</h3>
+                                            <div class="d-flex justify-content-between card-sec-2">
+                                                <div class="d-flex justify-content-between w-100">
+                                                    <div class="d-flex">
+                                                        <p class="mb-0 me-2">
+                                                            <small class="vsmall">Feels 27</small><br>
+                                                            <small class="small">30</small>
+                                                        </p>
+                                                        <p class="mb-0">
+                                                            <small class="vsmall">AQI</small><br>
+                                                            <small class="small">104</small>
+                                                        </p>
+                                                    </div>
+                                                    <h5 class="fw-bold">$2,185/mo</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="overlay justify-content-center align-items-center">
+                                            <div class="p-3 card-sec-1" style="font-size: 20px;">
+                                                <svg aria-hidden="true" width="20" focusable="false" data-prefix="far" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    <path class="heart-path" fill="white" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path>
+                                                 </svg>                                         
+        
+                                                <i class="fa fa-times float-end"></i>
+                                            </div>
+                                            <div class="my-3 w-100">
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Overall</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Cost</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Internet</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Fun</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Safety</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-sec-2">
+                                                <p class="text-center fw-bold">Bangkok is a really nice city. ..</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" col-lg-3 col-md-4 col-sm-6 card-container">
+                                    <div class="c-card" style="background-image: url('assets/bangkok.avif')">
+                                        <div class="card-bg">
+                                            <div class="d-flex justify-content-between card-sec-1">
+                                                <p class="mb-0 text-decoration-underline">1</p>
+                                                <p class="mb-0 text-center">29 <br> Mbps</p>
+                                            </div>
+                                            <h3 class="fw-bold">Bangkok</h3>
+                                            <div class="d-flex justify-content-between card-sec-2">
+                                                <div class="d-flex justify-content-between w-100">
+                                                    <div class="d-flex">
+                                                        <p class="mb-0 me-2">
+                                                            <small class="vsmall">Feels 27</small><br>
+                                                            <small class="small">30</small>
+                                                        </p>
+                                                        <p class="mb-0">
+                                                            <small class="vsmall">AQI</small><br>
+                                                            <small class="small">104</small>
+                                                        </p>
+                                                    </div>
+                                                    <h5 class="fw-bold">$2,185/mo</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="overlay justify-content-center align-items-center">
+                                            <div class="p-3 card-sec-1" style="font-size: 20px;">
+                                                <svg aria-hidden="true" width="20" focusable="false" data-prefix="far" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                    <path class="heart-path" fill="white" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"></path>
+                                                 </svg>                                         
+        
+                                                <i class="fa fa-times float-end"></i>
+                                            </div>
+                                            <div class="my-3 w-100">
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Overall</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Cost</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Internet</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Fun</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center align-items-center">
+                                                    <p class="mb-0 me-2" style="width: 25% !important;">Safety</p>
+                                                    <div class="progress" style="width: 60%;">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-sec-2">
+                                                <p class="text-center fw-bold">Bangkok is a really nice city. ..</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        $(".menu-inputs").keyup(function() {
+            string = $(this).val();
+            $('.' + $(this).attr('data')).children().each(function() {
+                if($(this).children().html().toLowerCase().search(string) == -1){
+                    $(".search-menu").css("display", "none");
+                } else {
+                    $(".search-menu").css("display", "flex");
+                }
+            })
+        })
+        $('.menu-inputs').click(function(e) {
+            // width = $(window).width();
+            // position = $(this).position()['left'];
+            e.stopPropagation();
+            // if(width>567) {
+            //     $(data).css("width", "500px")
+            //     if(width>1000){
+            //         position = position - 0.05*width;
+            //     }
+            //     $(data).css('transform', 'translate('+ position +'px, 45px)');
+            // }
+            // else {
+            //     $(data).css('width', '100vw');
+            //     $(data).css('transform', 'translateY(45px)');
+            // }
+            $(".dropdown-custom").css("display", "flex");
+        })
+        $(document).click(function(){
+            $('.imgMenu').hide();
+            $('.dropdown-custom').hide();
+        });
+        $('#menuPic').click(function(e) {
+            e.stopPropagation();
+            if($('.imgMenu').is(':visible')) {
+                $('.imgMenu').hide();
+            } else {
+                $('.imgMenu').show();
+            }
+        })
+        
+        $(".c-card").mouseenter(function() {
+            $(this).find(".overlay").css("display", "flex");
+        })
+        $(".c-card").mouseleave(function() {
+            $(this).find(".overlay").css("display", "none");
+        })
+        $(".fa-heart").mouseenter(function() {
+            $(this).find("path").attr("fill", "red")
+        })
+        $(".fa-heart").mouseleave(function() {
+            $(this).find("path").attr("fill", "white")
+        })
+        $(".fa-times").click(function() {
+            console.log($(this).parent().parent().parent().parent().fadeOut(1000));
+        })
+        $(".side-toggler").click(function() {
+            $("#sidebar").toggle();
+            if($("#sidebar").is(':visible')) {
+                $(".side-toggler").html("Close Filters");
+                $("#sidebar").css("width", "70vw");
+                $(".bg-valley").hide();
+                $(".trusted").removeClass('d-lg-flex')
+                // if($(window).width() > 992) {
+                //     $(".col-lg-3").css("width", "33%");
+                // } else if ($(window).width() > 768) {
+                //     $(".col-md-4").css("width", "50%");
+                // }
+            } else {
+                $(".side-toggler").html("Filters");
+                // if($(window).width() > 992) {
+                //     $(".col-lg-3").css("width", "25%");
+                // } else if ($(window).width() > 768) {
+                //     $(".col-md-4").css("width", "33%");
+                // }
+            }
+        })
+    </script>
+    </body>
+</html>
