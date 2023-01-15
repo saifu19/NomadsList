@@ -1,14 +1,14 @@
 body {
     background-color: white !important;
     /* position: relative;
-    z-index: 2;
-    overflow: hidden; */
+    z-index: 2; */
+    overflow: hidden;
 }
 .page-container {
     display: flex;
 }
 #sidebar {
-    width: 35vw !important;
+    /* width: 35vw !important; */
     height: 100vh;
     overflow-y: auto;
     background-color: #FBFAF8;
@@ -71,7 +71,6 @@ body {
 .custom-container {
     width: 90%;
     margin: 0 auto;
-    z-index: -1;
 }
 .bg-valley {
     color: white;
@@ -81,18 +80,16 @@ body {
 }
 
 .bg-video {
-    /* height: 100%; */
-    /* width: 100vw; */
+    height: 100vh !important;
+    width: 100vw !important;
     position: absolute;
-    z-index: -11;
+    z-index: -1;
     top: 0;
     left: 0;
     right: 0;
 }
-.bg-video video {
-    width: 100% !important;
-    /* height: 400px !important; */
-    height: fit-content;
+.bg-video video, .bg-video source {
+    height: 100% !important;
 }
 .main-header {
     letter-spacing: -1px;
@@ -118,6 +115,10 @@ body {
 .email-card button {
     padding: 5px;
     border-radius: 10px !important;
+}
+svg, path {
+    position: absolute !important;
+    bottom: 0 !important;
 }
 .btnGrp {
     position: absolute;
@@ -167,9 +168,9 @@ button {
     background-color: #FF4742;
     color: white;
 }
-.page {
+/* .page {
     z-index: 2;
-}
+} */
 .trusted img {
     filter: saturate(0%) brightness(61%) contrast(380%) contrast(50%) brightness(208%);
     cursor: pointer;
@@ -180,13 +181,11 @@ button {
     filter: saturate(0%) brightness(61%) contrast(380%) contrast(70%) brightness(258%);
 }
 .trusted p {
-    /* color: #949494; */
     cursor: pointer;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 300;
 }
 .trusted p:hover {
-    /* color: #000; */
     font-weight: 500;
 }
 .filters {
@@ -194,8 +193,9 @@ button {
     overflow-x: hidden;
     overflow-y: hidden;
 }
-.filters1 {
-    position: relative;
+.filters2 {
+    display: flex;
+    flex-wrap: wrap;
 }
 .search-menu {
     top: 0;
@@ -214,23 +214,33 @@ button {
 .imgMenu, .imgMenu2 {
     display: none;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     background-color: white;
     /* transform: translateY(45px); */
+}
+.imgMenu2 {
+    position: absolute;
+    height: 50vh !important;
+    top: 120px;
 }
 .menu-list {
     list-style: none;
     padding: 0;
 }
+.b-end {
+    border-right: 1px solid rgb(137, 137, 137);
+}
 .dropdown-custom {
     height: fit-content;
+    padding: 10px;
+    overflow-x: hidden !important;
     max-height: 60vh;
-    width: 300px;
     overflow: auto;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
     z-index: 3;
     display: none;
+    top: 120px;
 }
 .custom-line {
     margin: 0 auto;
@@ -273,8 +283,8 @@ button {
 }
 .card-container * {
     transition: all 0.5s;
-    position: relative;
-    z-index: -100;
+    /* position: relative;
+    z-index: -100; */
 }
 .c-card {
     color: white !important;
@@ -323,13 +333,21 @@ button {
 .overlay p {
     text-align: center;
 }
-@media screen and (max-width: 1000px) {
-    .custom-container {
-        width: 95vw;
+@media screen and (max-width: 992px) {
+    .dropdown-custom {
+        top: 50px;
     }
-    .sort-button {
-        position: static;
-        right: 2vw;
-        width: 200px !important;
+    .imgMenu2 {
+        top: 40px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #sidebar {
+        width: 100vw;
+    }
+    .filters2 {
+        flex-wrap: nowrap;
+        max-width: 90vw;
+        overflow-x: auto;
     }
 }
